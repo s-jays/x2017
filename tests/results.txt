@@ -1,0 +1,372 @@
+TEST complex_ref
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST empty
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST full_file
+    objdump_x2017:
+0a1,264
+> FUNC LABEL 0
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 1
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 2
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 3
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 4
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 5
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 6
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+> FUNC LABEL 7
+>     MOV STK A VAL 0
+>     MOV STK B VAL 1
+>     MOV STK C VAL 2
+>     MOV STK D VAL 3
+>     MOV STK E VAL 4
+>     MOV STK F VAL 5
+>     MOV STK G VAL 6
+>     MOV STK H VAL 7
+>     MOV STK I VAL 8
+>     MOV STK J VAL 9
+>     MOV STK K VAL 10
+>     MOV STK L VAL 11
+>     MOV STK M VAL 12
+>     MOV STK N VAL 13
+>     MOV STK O VAL 14
+>     MOV STK P VAL 15
+>     MOV STK Q VAL 16
+>     MOV STK R VAL 17
+>     MOV STK S VAL 18
+>     MOV STK T VAL 19
+>     MOV STK U VAL 20
+>     MOV STK V VAL 21
+>     MOV STK W VAL 22
+>     MOV STK X VAL 23
+>     MOV STK Y VAL 24
+>     MOV STK Z VAL 25
+>     MOV STK a VAL 26
+>     MOV STK b VAL 27
+>     MOV STK c VAL 28
+>     MOV STK d VAL 29
+>     MOV STK e VAL 30
+>     RET
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST immediate_ret
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST invalid_cal
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST multiple_cal
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST multiple_func
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST multiple_main
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST no_main
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST repeat_not
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST sample_program
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_cal
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_equ
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_mov2
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_mov
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_not
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST simple_ref
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------
+TEST unordered_func
+    objdump_x2017:
+        PASSED
+    vm_x2017:
+        PASSED
+------------------------------------------------------------------------------

@@ -1,0 +1,6 @@
+FUNC LABEL 0
+    CAL VAL 10
+    RET
+FUNC LABEL 5
+    PRINT VAL 5
+    RET
